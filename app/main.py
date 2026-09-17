@@ -9,6 +9,7 @@ app = FastAPI(
     title="Portfolio API",
     description="Backend for personal portfolio with RAG agent",
     version="1.0.0",
+    root_path="/portfolio"
 )
 
 # CORS
