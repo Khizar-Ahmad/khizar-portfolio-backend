@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     # Non-sensitive defaults are fine to keep
     CHROMA_PERSIST_DIR: str = "./chroma_store"
     APP_HOST: str = "0.0.0.0"
-    APP_PORT: int = 8000
+    APP_PORT: int = 8005
     CORS_ORIGINS: str = "http://localhost:5173,http://localhost:3000"
 
     @property
